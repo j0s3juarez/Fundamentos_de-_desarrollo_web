@@ -1,0 +1,12 @@
+a[href*="uanl"] {
+    background-color: blue;
+    color: white;
+}
+
+a[href*="web.whatsapp"] {
+    background-color: green;
+}
+
+a[href*="youtube"] {
+    background-color: tomato;
+}
