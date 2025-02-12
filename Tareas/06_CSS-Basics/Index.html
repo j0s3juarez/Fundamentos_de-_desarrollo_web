@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades del Texto</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <style>
+    p.indentacion { text-indent: 0.25in; }
+    p.indentacion_francesa { margin-left: 0.25in; text-indent: -0.25in; } 
+
+    p.indentacion:first-letter, p.indentacion_francesa:first-letter {
+    font-size: 24pt; 
+    background-color: magenta;
+    color: white; 
+    padding: 5px;
+    border: 1px solid navy;
+    }
+    </style>
+
+</head>
+    <body>
+    <p class="indentacion">
+    Texto de ejemplo sobre los valores de la indentación.
+    Texto de ejemplo sobre los valores de la indentación. 
+    </p>
+
+    <p class="indentacion_francesa">
+    Texto de ejemplo sobre los valores de la indentación.
+    Texto de ejemplo sobre los valores de la indentación. 
+    </p>
+    </body>
+</html>
